@@ -3,7 +3,7 @@
 int main()
 {
     char ch;
-    scanf("%s",&ch);
+    scanf("%c",&ch);
 
     if (a == 'A')
     {
