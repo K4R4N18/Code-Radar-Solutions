@@ -15,7 +15,7 @@ int main()
     }
     else
     {
-        printf("Equal")
+        printf("Equal");
     }
     
     return 0;
