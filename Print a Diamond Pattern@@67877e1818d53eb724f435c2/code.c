@@ -26,7 +26,7 @@ int main ()
             printf(" ");
         }
 
-        for (int c = 0; c < 2*n-a; c++)
+        for (int c = 0; c < 2*a-1; c++)
         {
             printf("*");
         }
