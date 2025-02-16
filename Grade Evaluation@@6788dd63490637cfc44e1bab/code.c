@@ -5,7 +5,7 @@ int main()
     char ch;
     scanf("%c",&ch);
 
-    if (a == 'A')
+    if (a == A)
     {
         printf("Excellent");
     }
