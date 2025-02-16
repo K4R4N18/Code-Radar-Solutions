@@ -8,7 +8,7 @@ int main ()
 
     for (int i = 1; i <= 10; i++)
     {
-        printf("2 X %d = %d", i, n*i);
+        printf("2 X %d = %d\n", i, n*i);
     }
     
 
