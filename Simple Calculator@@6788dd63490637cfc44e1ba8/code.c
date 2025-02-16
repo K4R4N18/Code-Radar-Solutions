@@ -20,7 +20,7 @@ int main()
     }
     else if (ch == '/')
     {
-        printf("%d", (float) a / b);
+        printf("%f", (float) a / b);
     }
     return 0;
 }
