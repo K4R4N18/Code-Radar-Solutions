@@ -23,7 +23,7 @@ int main()
     }
     else if (ch == 'F')
     {
-        printf("Below Average");
+        printf("Fail");
     }
     else
     {
