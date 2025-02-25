@@ -5,8 +5,8 @@ int main()
 {
     char a;
     int b;
-    scanf("%c%d",&a,&b);
-
+    scanf("%c",&a);
+    scanf("%d",&b);
     if (isalpha(a))
     {
         if (a=='a' || a=='i' || a=='e' || a=='o' || a=='u' || a=='A' || a=='I' || a=='E' || a=='O' || a=='U')
