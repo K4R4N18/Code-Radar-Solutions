@@ -1,12 +1,13 @@
 // Your code here...
 #include <stdio.h>
+#include <ctype.h>
 int main()
 {
-    int a;
-    char b;
+    char a;
+    int b;
     scanf("%c%d",&a,&b);
 
-    if (a>='a' && a<='z' || a>='A' && a<='Z')
+    if (isalpha(a))
     {
         if (a=='a' || a=='i' || a=='e' || a=='o' || a=='u' || a=='A' || a=='I' || a=='E' || a=='O' || a=='U')
         {
@@ -16,6 +17,14 @@ int main()
         {
             printf("Consonant");
         }
+    }
+    else if (isdigit(b))
+    {
+        printf("Digit");
+    }
+    else
+    {
+        printf("Special Character");
     }
     return 0;
 }
