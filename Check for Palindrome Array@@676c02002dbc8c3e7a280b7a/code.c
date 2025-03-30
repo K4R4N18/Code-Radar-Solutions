@@ -11,8 +11,7 @@ int main()
     for (int i = 0; i < N; i++)
         scanf("%d", &arr[i]);
     
-   int t;
-   scanf("%d",&t);
+   
    
    int is_pallindrome = 1
    
