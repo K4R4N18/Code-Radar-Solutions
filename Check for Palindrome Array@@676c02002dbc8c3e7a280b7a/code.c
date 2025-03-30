@@ -13,7 +13,7 @@ int main()
     
    
    
-   int is_pallindrome = 1
+   int is_pallindrome = 1;
    
    for(int i = 0; i < N; i++)
    {
