@@ -21,7 +21,8 @@ int main()
 
 bool sorted(int arr[],int length)
 {
-    for(int i = 1; i<N; i++)
+
+    for(int i = 1; i<length; i++)
     {
         if (arr[i] > arr[i+1])
         {
