@@ -1,38 +1,37 @@
-// Your code here...
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main()
 {
-    int N,f=0;
+    int N;
     scanf("%d", &N);
     
     int arr[N];
     for (int i = 0; i < N; i++)
         scanf("%d", &arr[i]);
     
-    for (int i = 0; i<N;i++)
+    for (int i = 0; i < N; i++)
     {
-        int is_first=1;
-        for(int j = 0 ; j<N;j++)
+        // Simple duplicate check
+        int duplicate = 0;
+        for (int j = 0; j < i; j++)
         {
-            if(arr[i]==arr[j])
-                is_first=0;
+            if (arr[j] == arr[i])
+            {
+                duplicate = 1;
                 break;
-        }
-
-        if(is_first)
-        {
-            f=0;
-        for(int j = 0; j<N;j++)
-        {
-            if(arr[j] == arr[i])
-                f++;
+            }
         }
         
-        printf("%d %d\n",arr[i],f);
+        if (!duplicate)
+        {
+            int count = 1;
+            for (int j = i + 1; j < N; j++)
+            {
+                if (arr[j] == arr[i])
+                    count++;
+            }
+            printf("%d %d\n", arr[i], count);
         }
-        
     }
     
     return 0;
