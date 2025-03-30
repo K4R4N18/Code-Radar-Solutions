@@ -26,7 +26,7 @@ int main()
    }
 
    if (found_index!=-1)
-        printf("%d",arr[i]);
+        printf("%d",arr[found_index]);
     else
         printf("-1");
     
