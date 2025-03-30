@@ -24,8 +24,8 @@ int main()
         
         if (!duplicate)
         {
-            int count = 1;
-            for (int j = i + 1; j < N; j++)
+            int count = 0;
+            for (int j = 0; j < N; j++)
             {
                 if (arr[j] == arr[i])
                     count++;
