@@ -26,7 +26,7 @@ int main()
     }
     scanf("%d",k);
 
-    rotate_right_once(arr[],N);
+    rotate_right_once(arr[N],N);
 
     for (int i = 0; i<N ; i++)
         printf("%d",arr[i]);
