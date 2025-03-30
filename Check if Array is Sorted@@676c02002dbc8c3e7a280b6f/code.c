@@ -18,7 +18,7 @@ int main()
     return 0;
 }
 
-void sorted(arr[],int length)
+bool sorted(arr[],int length)
 {
     for(int i = 1; i<N; i++)
         scanf("%d", &arr[i]);
