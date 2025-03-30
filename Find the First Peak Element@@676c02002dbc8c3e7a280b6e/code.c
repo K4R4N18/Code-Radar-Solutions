@@ -19,7 +19,7 @@ int findFirstPeak(int arr[], int length)
     if (length == 1)
         return 0; 
     
-    t
+    
     if (arr[0] >= arr[1])
         return 0;
     
