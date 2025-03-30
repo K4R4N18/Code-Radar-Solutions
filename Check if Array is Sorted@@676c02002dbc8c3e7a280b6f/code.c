@@ -10,7 +10,7 @@ int main()
     
     int arr[N];
     
-    if (sorted(arr,N))
+    if (sorted(arr[N],N))
         printf("Sorted");
     else
         printf("Not Sorted");
