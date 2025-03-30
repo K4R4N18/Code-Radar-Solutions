@@ -15,7 +15,7 @@ int main()
     {
         for(int j = 0; j<N;j++)
         {
-            if(a[j] == a[i])
+            if(arr[j] == arr[i])
                 f++;
         }
         
