@@ -20,7 +20,7 @@ int main()
         {
             first = second;
             first = arr[i];
-        {    
+        }   
         if(arr[i]>second && arr[i]!=first)
             second = arr[i];
     }
