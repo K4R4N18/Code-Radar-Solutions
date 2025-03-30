@@ -14,7 +14,7 @@ int main()
    int first = -500;
    int second = -500;
    
-   for(int i = 0; i<n; i++)
+   for(int i = 0; i<N; i++)
    {
        if(arr[i]>first)
        {
