@@ -26,7 +26,7 @@ int main()
         if(arr[i]<0)
             printf("%d ", arr[i]*-1);
         else
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
     }
         
    
