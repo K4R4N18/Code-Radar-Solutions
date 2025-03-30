@@ -20,7 +20,7 @@ int main()
        if(t == arr[i])
        {
         printf("%d",i);
-        found_index = i
+        found_index = i;
         break;
        }
    }
