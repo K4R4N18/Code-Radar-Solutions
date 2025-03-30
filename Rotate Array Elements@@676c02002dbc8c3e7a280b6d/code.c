@@ -3,7 +3,7 @@
 
 
 
-void rotate_right_once(int arr[N], int length)
+void rotate_right_once(int arr[], int length)
 {
     int temp = arr[length - 1];
 
@@ -26,7 +26,7 @@ int main()
     }
     scanf("%d",k);
 
-    rotate_right_once(arr,N);
+    rotate_right_once(arr[],N);
 
     for (int i = 0; i<N ; i++)
         printf("%d",arr[i]);
