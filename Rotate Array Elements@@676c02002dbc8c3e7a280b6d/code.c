@@ -3,7 +3,7 @@
 
 
 
-void rotate_right_once(int arr[], int length)
+void rotate_right_once(int arr[N], int length)
 {
     int temp = arr[length - 1];
 
