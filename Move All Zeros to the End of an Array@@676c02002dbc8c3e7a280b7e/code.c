@@ -18,7 +18,7 @@ int main()
             arr[pos++] = arr[i];
     }
     
-    while(pos<n)
+    while(pos<N)
     {
         arr[pos++]=0;
     }
