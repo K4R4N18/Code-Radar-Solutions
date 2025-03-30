@@ -22,7 +22,13 @@ int main()
     }
     
     for (int i = 0; i < N; i++)
-        printf("%d ", arr[i]);
+    {
+        if(arr[i]<0)
+            printf("%d ", arr[i]*-1);
+        else
+            printf("%d",arr[i]);
+    }
+        
    
     
     return 0;
