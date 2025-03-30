@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 
-void rotate_right_once(arr[], int length)
+void rotate_right_once(arr[N], int length)
 {
     int temp = arr[length - 1];
 
@@ -17,7 +17,7 @@ int main()
     int N,k;
     scanf("%d",&N);
 
-    int arr[];
+    int arr[N];
     for(int i = 0; i<N; i++)
     {
         scanf("%d",&arr[i]);
