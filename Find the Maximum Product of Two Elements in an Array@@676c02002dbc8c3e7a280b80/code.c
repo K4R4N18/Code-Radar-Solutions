@@ -1,5 +1,3 @@
-// Your code here...
-// Online C compiler to run C program online
 #include <stdio.h>
 
 
@@ -19,7 +17,10 @@ int main()
     for(int i = 0; i < N; i++)
     {
         if(arr[i]>first)
+        {
+            first = second;
             first = arr[i];
+        {    
         if(arr[i]>second && arr[i]!=first)
             second = arr[i];
     }
