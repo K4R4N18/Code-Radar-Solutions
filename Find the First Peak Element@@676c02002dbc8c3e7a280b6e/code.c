@@ -12,7 +12,7 @@ int main()
 
     if (arr[0]>=arr[1])
         printf("%d",arr[0]);
-    else if
+    else if ()
     {
         
         for (int i = 1; i<N-1; i++)
