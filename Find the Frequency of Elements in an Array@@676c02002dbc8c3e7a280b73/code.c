@@ -13,6 +13,7 @@ int main()
     
     for (int i = 0; i<N;i++)
     {
+        f=0;
         for(int j = 0; j<N;j++)
         {
             if(arr[j] == arr[i])
