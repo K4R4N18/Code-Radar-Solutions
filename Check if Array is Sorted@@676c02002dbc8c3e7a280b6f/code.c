@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void sorted(int arr[],int length);
+bool sorted(int arr[],int length);
 int main()
 {
     int N;
@@ -19,7 +19,7 @@ int main()
     return 0;
 }
 
-void sorted(int arr[],int length)
+bool sorted(int arr[],int length)
 {
     for(int i = 1; i<N; i++)
     {
