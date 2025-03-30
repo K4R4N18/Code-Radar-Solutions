@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-
+int findFirstPeak(int arr[], int length);
 int main()
 {
     int N;
@@ -10,27 +10,29 @@ int main()
     for(int i = 0; i<N; i++)
         scanf("%d", &arr[i]);
 
-    if (arr[0]>=arr[1])
-        printf("%d",arr[0]);
-    else if ()
-    {
-        
-        for (int i = 1; i<N-1; i++)
-        {
-            if (arr[i]>=arr[i-1] && arr[i]>=arr[i+1])
-            {
-                printf("%d",arr[i]);
-                break;
-            }
-        }
-    }
-    else if (arr[N-1]>=arr[N-2])
-    {
-        printf("%d",arr[N-1]);
-    }
-    else
-    {
-        printf("-1");
-    }   
+    
     return 0;
+}
+
+int findFirstPeak(int arr[], int length)
+{
+    if (length == 1)
+        return 0; 
+    
+    t
+    if (arr[0] >= arr[1])
+        return 0;
+    
+    
+    for (int i = 1; i < length - 1; i++)
+    {
+        if (arr[i] >= arr[i - 1] && arr[i] >= arr[i + 1])
+            return i;
+    }
+    
+    // Check last element
+    if (arr[length - 1] >= arr[length - 2])
+        return length - 1;
+    
+    return -1; // No peak found (shouldn't happen for valid inputs)
 }
