@@ -18,7 +18,7 @@ int main()
     {
         if(arr[i]>first)
         {
-            first = second;
+            second = first;
             first = arr[i];
         }   
         if(arr[i]>second && arr[i]!=first)
