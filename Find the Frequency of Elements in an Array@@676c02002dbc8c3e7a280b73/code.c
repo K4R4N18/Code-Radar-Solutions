@@ -16,7 +16,7 @@ int main()
         int is_first=1;
         for(int j = 0 ; j<N;j++)
         {
-            if(arr[i]=arr[j])
+            if(arr[i]==arr[j])
                 is_first=0;
                 break;
         }
