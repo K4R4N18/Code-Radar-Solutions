@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool sorted(arr[],int length);
+bool sorted(int arr[],int length);
 int main()
 {
     int N;
@@ -18,7 +18,7 @@ int main()
     return 0;
 }
 
-bool sorted(arr[],int length)
+bool sorted(int arr[],int length)
 {
     for(int i = 1; i<N; i++)
         scanf("%d", &arr[i]);
