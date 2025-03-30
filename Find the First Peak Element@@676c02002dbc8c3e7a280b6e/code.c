@@ -20,7 +20,7 @@ int findFirstPeak(int arr[], int length)
         return 0; 
     
     
-    if (arr[0] >= arr[1])
+    if (arr[0] > arr[1])
         return arr[0];
     
     
@@ -31,7 +31,7 @@ int findFirstPeak(int arr[], int length)
     }
     
     // Check last element
-    if (arr[length - 1] >= arr[length - 2])
+    if (arr[length - 1] > arr[length - 2])
         return arr[length - 1];
     
     return -1; // No peak found (shouldn't happen for valid inputs)
