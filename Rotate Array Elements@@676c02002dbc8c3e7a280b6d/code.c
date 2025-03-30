@@ -39,7 +39,7 @@ void rotate_right_once(int arr[], int length)
 {
     int temp = arr[length - 1];
 
-    for (int i = (length - 2); i>0; i--)
+    for (int i = (length - 2); i>=0; i--)
     {
         arr[i + 1] = arr[i];
     }
