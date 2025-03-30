@@ -16,7 +16,7 @@ int main()
    
    int is_pallindrome = 1
    
-   for(int i = 0;i<N;i++)
+   for(int i=0;i<N;i++)
    {
        if(arr[i]!=arr[N-1-i])
         {
