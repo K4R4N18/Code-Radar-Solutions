@@ -9,15 +9,28 @@ int main()
     int arr[N];
     for(int i = 0; i<N; i++)
         scanf("%d", &arr[i]);
-        
-    for (int i = 1; i<N-1; i++)
+
+    if (arr[0]>=arr[i])
+        printf("%d",arr[0]);
+    else if
     {
-        if (arr[i]>=arr[i-1] && arr[i]>=arr[i+1])
+        
+        for (int i = 1; i<N-1; i++)
         {
-            printf("%d",arr[i]);
-            break;
+            if (arr[i]>=arr[i-1] && arr[i]>=arr[i+1])
+            {
+                printf("%d",arr[i]);
+                break;
+            }
         }
     }
-        
+    else if (arr[N-1]>=arr[N-2])
+    {
+        printf("%d",arr[N-1]);
+    }
+    else
+    {
+        printf("-1");
+    }   
     return 0;
 }
