@@ -14,13 +14,13 @@ int main()
         if (a%i==0)
         {
             printf("Not Prime");
-            break;
+            continue;
             
         }
         else
         {
             printf("Prime");
-            break;
+            continue;
         }
     }
     return 0;
