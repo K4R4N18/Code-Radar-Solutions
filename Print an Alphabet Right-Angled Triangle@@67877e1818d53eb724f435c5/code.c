@@ -10,7 +10,9 @@ int main()
     {
         alphabet = 65;
        for (int j = 1; j<=i; j++)
-        printf("%c",alphabet + j+1); 
+       {
+        printf("%c ",alphabet + j+1); 
+       }
     }
     return 0;
 }
