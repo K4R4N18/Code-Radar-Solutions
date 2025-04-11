@@ -13,6 +13,7 @@ int main()
        {
         printf("%c ",alphabet + j+1); 
        }
+       printf("\n");
     }
     return 0;
 }
